@@ -13,12 +13,19 @@ Dependencies
 To run this script, you will need the following tools installed and accessible in your system's PATH:
 
 Python 3.x
+
 fastp
+
 minimap2
+
 samtools
+
 Clair3
+
 bcftools
+
 bedtools
+
 bgzip and tabix (typically comes with htslib)
 
 # Installation
