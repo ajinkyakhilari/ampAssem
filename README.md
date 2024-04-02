@@ -58,7 +58,7 @@ Output
 The script outputs the processed files in a new directory for each barcode under the current working directory. Outputs include filtered FASTQ files, BAM files, VCF files, and the final consensus sequences in FASTA format.
 
 # License
-[Specify the license under which your script is released.]
+The script is released under MIT lisence.
 
 # Contributing
 Contributions to improve the script or add new features are welcome. Please submit a pull request or open an issue for discussion.
