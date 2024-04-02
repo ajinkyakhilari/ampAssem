@@ -37,14 +37,23 @@ To use this script, you must provide several parameters including the input dire
 python reference_guided_assembly.py --input_dir /path/to/reads --min_length 1000 --max_length 2000 --threads 4 --reference /path/to/reference.fasta --phred_quality 20 --model r941_prom_high_g360 --num_barcodes 96
 
 Parameters
---input_dir: Directory containing FASTQ files organized by barcode.
---min_length: Minimum read length to consider.
---max_length: Maximum read length to consider.
---threads: Number of threads for parallel processing.
---reference: Path to the reference genome FASTA file.
---phred_quality: Minimum PHRED quality score for reads.
---model: Clair3 model to use for variant calling.
---num_barcodes: Number of barcodes to process.
+
+--input_dir: Directory containing FASTQ files organized by barcode
+
+--min_length: Minimum read length to consider
+
+--max_length: Maximum read length to consider
+
+--threads: Number of threads for parallel processing
+
+--reference: Path to the reference genome FASTA file
+
+--phred_quality: Minimum PHRED quality score for reads
+
+--model: Clair3 model to use for variant calling
+
+--num_barcodes: Number of barcodes to process
+
 Output
 The script outputs the processed files in a new directory for each barcode under the current working directory. Outputs include filtered FASTQ files, BAM files, VCF files, and the final consensus sequences in FASTA format.
 
